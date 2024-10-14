@@ -96,3 +96,5 @@ export function launchAppCall(conversationId: string, personaId: string) {
     // ROUTE_APP_CALL,
   ).then();
 }
+
+export { navigateFn };
