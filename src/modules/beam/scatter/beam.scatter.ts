@@ -329,3 +329,6 @@ export const createScatterSlice: StateCreator<RootStoreSlice & ScatterStoreSlice
   },
 
 });
+
+
+export { rayScatterStart, rayScatterStop };
