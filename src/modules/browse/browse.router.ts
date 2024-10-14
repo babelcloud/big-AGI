@@ -251,3 +251,5 @@ function cleanHtml(html: string) {
   // Return the cleaned HTML
   return $.html();
 }
+
+export { workerPuppeteer, cleanHtml };
