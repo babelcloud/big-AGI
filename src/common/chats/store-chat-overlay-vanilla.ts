@@ -52,3 +52,6 @@ const fallbackOverlayStore = createChatOverlayVanillaStore();
 
 export const useChatOverlayStore = <T, >(vanillaStore: OverlayStoreApi | null, selector: (store: OverlayStore) => T): T =>
   useStore(vanillaStore || fallbackOverlayStore, selector);
+
+
+export { createComposerOverlayStoreSlice };
