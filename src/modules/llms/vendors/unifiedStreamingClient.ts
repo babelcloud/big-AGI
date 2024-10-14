@@ -176,3 +176,6 @@ async function _openAIModerationCheck(access: OpenAIAccessSchema, lastMessage: V
   // moderation check was successful
   return null;
 }
+
+
+export { _openAIModerationCheck };
