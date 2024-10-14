@@ -29,3 +29,5 @@ export function prettyBaseModel(model: string | undefined): string {
     return model.replace(':latest', '').replaceAll(':', ' ');
   return model;
 }
+
+export { getModelFromFile };
