@@ -78,3 +78,6 @@ function createFetcherFromTRPC<TPostBody, TOut>(parser: (response: Response) => 
     }
   };
 }
+
+
+export { createFetcherFromTRPC };
