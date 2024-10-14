@@ -54,3 +54,5 @@ function _renderVideoFrameToCanvas(videoElement: HTMLVideoElement): HTMLCanvasEl
 async function _canvasToBlob(canvas: HTMLCanvasElement, imageFormat: string = 'image/png'): Promise<Blob | null> {
   return new Promise((resolve) => canvas.toBlob(resolve, imageFormat));
 }
+
+export { _prettyFileName, _renderVideoFrameToCanvas, _canvasToBlob };
