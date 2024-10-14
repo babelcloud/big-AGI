@@ -74,3 +74,5 @@ export async function fetchYouTubeTranscript(videoId: string, fetchTextFn: (url:
     transcript,
   };
 }
+
+export { extractFromTo };
