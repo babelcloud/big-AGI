@@ -511,3 +511,6 @@ export const useConversation = (conversationId: DConversationId | null) => useCh
     deleteConversations: state.deleteConversations,
   };
 }, shallow);
+
+
+export { getNextBranchTitle, updateDMessageTokenCount, updateTokenCounts };
