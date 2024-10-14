@@ -1131,3 +1131,5 @@ function fromManualMapping(mappings: ManualMappings, id: string, created?: numbe
     ...(!!known.hidden && { hidden: known.hidden }),
   };
 }
+
+export { fromManualMapping };
