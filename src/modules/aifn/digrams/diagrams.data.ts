@@ -73,3 +73,5 @@ export function bigDiagramPrompt(diagramType: DiagramType, diagramLanguage: Diag
     { role: 'user', content: (!customInstruction?.trim() ? usr : `${usr} Also consider the following instructions: ${customInstruction.trim()}`) + '\n' + usrSuffixCoT },
   ];
 }
+
+export { plantumlDiagramPrompt, mermaidDiagramPrompt };
