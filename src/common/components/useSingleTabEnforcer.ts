@@ -93,3 +93,5 @@ export function useSingleTabEnforcer(channelName: string): boolean | null {
 
   return isAlone;
 }
+
+export { AloneDetector };
