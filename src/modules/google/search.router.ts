@@ -59,3 +59,5 @@ function objectToQueryString(params: Record<string, any>): string {
     .map(([key, value]) => encodeURIComponent(key) + '=' + encodeURIComponent(value))
     .join('&');
 }
+
+export { objectToQueryString };
