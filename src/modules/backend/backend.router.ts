@@ -79,3 +79,6 @@ export const backendRouter = createTRPCRouter({
     }),
 
 });
+
+
+export { sdbmHash, generateLlmEnvConfigHash };
