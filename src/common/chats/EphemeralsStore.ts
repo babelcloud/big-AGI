@@ -101,3 +101,6 @@ export function useEphemerals(conversationHandler: ConversationHandler | null): 
 
   return ephemerals;
 }
+
+
+export { createDEphemeral };
