@@ -32,3 +32,5 @@ export const useDebugHook = (app: string) => {
 
   return { test, setTest };
 };
+
+export { getRandom1000, increment };
